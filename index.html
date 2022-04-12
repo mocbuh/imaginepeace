@@ -7,8 +7,27 @@
     <link href="index-prod.css" rel="stylesheet">
   </head>
   <body>
-   <h1>Imagine Peace On World</h1>
-   <p>Aktuell: Hilfe fuer Menschen in der Ukraine...</p>
-   <p></p>
+   <header class="fixed top-0 z-50 w-full bg-white shadow md:px-6 md:py-6">
+      <div class="md:flex md:flex-row-reverse md:justify-between md:items-center md:max-w-6xl md:mx-auto">
+        <div class="flex flex-grow items-center justify-between px-3 py-4 md:p-0 md:flex-grow-0">
+          <div id="menuBtn" class="md:hidden">
+            <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+            </svg>
+          </div>
+        </div>
+        <nav id="navMenu" class="hidden px-4 pb-4 md:flex md:flex-grow md:p-0">
+          <a href="/" class="font-bold block py-1 px-2 rounded">Imagine Peace on Earth</a>
+          <a href="/about" class="block mt-1 py-1 px-2 hover:bg-gray-100 rounded md:mt-0 md:ml-2">Über mich</a>
+        </nav>
+      </div>
+    </header>
+    <section class="md:container md:mx-auto md:px-16 md:flex">
+      <img class="h-screen object-cover md:order-last md:flex" src="todd-trapani-sunflower.field.jpg">
+      <div class="fixed top-1/4 w-full text-center text-white px-8 md:relative md:text-black md:flex md:justify-center md:items-center md:flex-col">
+        <h1 class="text-2xl italic font-bold pb-6">Imagine Peace on Earth</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+    </section>
  </body>
 </html> 
