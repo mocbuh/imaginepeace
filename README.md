@@ -1,6 +1,10 @@
-# imaginepeace
+# Imagine Peace on Earth
 
-# Deployment Schritte
+## Local Development
+
+Node und npm sollten installiert sein. Tailwindcss wird für die css styles benutzt. Installation via `npm install` und dann `npm run build:dev`.
+
+## Deployment Schritte
 
 Die Internetseite wird von Netlify gehosted und automatisch geupdated wenn der main branch ein neues commit erhält.
 
