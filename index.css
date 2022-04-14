@@ -1,8 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-#intro {
-  background-image: url("todd-trapani-sunflower.field.jpg");
-}
